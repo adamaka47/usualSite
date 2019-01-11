@@ -1,0 +1,369 @@
+/*font-family: 'Roboto', sans-serif;
+font-family: 'Suez One', serif;*/
+* {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+	width: 100%;
+	font-family: 'Roboto', sans-serif;
+	padding: 0;
+	overflow-x: hidden;
+}
+html {
+	width: 100%;
+	height: 100%;
+}
+
+#top {
+	width: 100%;
+	height: 100vh;
+	background: url('https://www.macpricesaustralia.com.au/wp-content/uploads/2018/07/2018-Space-Grey-MacBook-Pro-Mac-Computer.jpg') center no-repeat;
+	background-blend-mode: multiply;
+	background-color: #304;
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-attachment: fixed;
+	text-align: center;
+	color: #fff;
+	font-size: 3em;
+}
+#top h1 {
+	padding-top: 15%;
+}
+#top h3 {
+	color: #ddd;
+}
+
+.content {
+	padding: 90px 0;
+	margin: auto;
+	background-color: #a0a0a0;
+	color: #304;
+}
+.content_flex {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.content_left {
+	margin-right: 4%;
+}
+.saq {
+	font-size: 14px;
+	color: #fff;
+}
+.content_title {
+	font-size: 3em;
+	margin: 0;
+	font-weight: 300;
+}
+.content_title span {
+	font-weight: 900;
+	display: block;
+}
+
+.content_text {
+	width: 420px;
+	line-height: 1.5;
+	margin-left: auto;
+	margin-right: auto;
+}
+h1, h2, h3, h4 {
+	margin: 0;
+}
+.about {
+	background: url('https://ocs-pl.oktawave.com/v1/AUTH_2887234e-384a-4873-8bc5-405211db13a2/spidersweb/2016/04/macbook-air-007.jpg') center no-repeat;
+	background-attachment: fixed;
+	background-blend-mode: multiply;
+	background-color: #222;
+	min-height: 768px;
+	-webkit-background-size: cover;
+	background-size: cover;
+	color: #fff;
+}
+
+.about h2 {
+	margin: 0;
+	padding-top: 100px;
+	font-size: 3em;
+	text-align: center;
+}
+.about h4 {
+	text-align: center;
+	margin: 0;
+	font-size: 1.8em;
+	margin-top: 50px;
+}
+
+.about_flex {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	-ms-align-items: center;
+	align-items: center;
+	justify-content: center;
+	margin-top: 60px;
+}
+
+.about_flex img {
+	max-width: 400px;
+	max-height: 250px;
+	margin-right: 5%;
+	display: block;
+	cursor: pointer;
+}
+.about_flex img:last-child {
+	margin-right: 0;
+}
+.forms {
+	font-family: 'Suez One', serif;
+	padding: 60px 0;
+	background-color: #fea100;
+	color: #111;
+	text-align: center;
+}
+.forms_title {
+	font-size: 3em;
+}
+.form .inputs {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 320px;
+	padding-left: 20px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	font-family: 'Suez One', serif;
+	border: none;
+	border-radius: 5px;
+	outline: none;
+	margin-bottom: 25px;
+	border: 2px solid #fff;
+	font-family: 
+}
+.form .inputs:focus {
+	outline: none;
+	border-radius: 5px;
+	border: 2px solid #fea100;
+}
+.form textarea {
+	margin-bottom: 25px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 320px;
+	height: 100px;
+	border: none;
+	outline: none;
+	border-radius: 5px;
+	padding-left: 20px;
+	font-family: 'Suez One', serif;
+	padding-top: 10px;
+
+}
+
+input[type="submit"] {
+	border: none;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	border-radius: 0;
+	width: 200px;
+	cursor: pointer;
+	color: #fff;
+	background-color: #304;
+	font-family: 'Roboto', sans-serif;
+	font-size: 18px;
+	-webkit-transition: .2s;
+	-o-transition: .2s;
+	transition: .2s;
+}
+input[type="submit"]:hover {
+	background-color: #eee;
+	color: #304;
+}
+.features {
+	padding: 40px 0;
+	color: #fff;
+	background-color: #111;
+}
+.features_title {
+	text-align: center;
+	font-size: 3em;
+}
+
+.features_flex {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	justify-content: center;
+	margin-top: 100px;
+	margin-bottom: 100px;
+	display: flex;
+}
+i {
+	font-size: 24px;
+	margin-right: 20px;
+	padding-top: 2px
+}
+h4 {
+	margin: 0;
+	font-size: 24px;
+}
+.feature_nute p {
+	width: 280px;
+	font-size: 18px;
+	line-height: 1.5;
+}
+.features_one {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	margin-right: 2%;
+}
+footer {
+	background-color: #a0a0a0;
+	font-family: 'Suez One', serif;
+	color: #111;
+	padding-top: 30px;
+	padding-bottom: 35px;
+	text-align: center;
+
+	font-weight: 900;
+	font-size: 24px;
+}
+footer span {
+	display: block;
+}
+.features_one:last-child {
+	margin-right: 0;
+}
+
+@media (max-width: 1024px) {
+	.features_flex {
+		-webkit-flex-direction: column;
+		-moz-flex-direction: column;
+		-ms-flex-direction: column;
+		-o-flex-direction: column;
+		flex-direction: column;
+		justify-content: center;
+		ms-align-items: center;
+		align-items: center;
+		text-align: center;
+		margin-top: 50px
+	}
+	.features_one {
+		margin: 0;
+		margin-right: 0;
+		margin-bottom: 40px;
+		display: -webkit-flex;
+		display: -moz-flex;
+		display: -ms-flex;
+		display: -o-flex;
+		display: flex;
+		-webkit-flex-direction: column;
+		-moz-flex-direction: column;
+		-ms-flex-direction: column;
+		-o-flex-direction: column;
+		flex-direction: column;	
+	}
+	i {
+		margin: 0;
+		font-size: 20px;
+		padding: 0;
+		margin-bottom: 20px;
+	}
+	.about_flex {
+		-webkit-flex-direction: column;
+		-moz-flex-direction: column;
+		-ms-flex-direction: column;
+		-o-flex-direction: column;
+		flex-direction: column;
+		justify-content: center;
+		-ms-align-items: center;
+		align-items: center;
+
+	}
+	.about_flex img {
+		margin: 0;
+		margin-bottom: 35px;
+	}
+	#top {
+		font-size: 2em;
+	}
+		#top h3 {
+		font-size: 1em;
+	}
+}
+@media (max-width: 860px) {
+	.content_flex {
+		-webkit-flex-direction: column;
+		-moz-flex-direction: column;
+		-ms-flex-direction: column;
+		-o-flex-direction: column;
+		flex-direction: column;
+		text-align: center;
+	}
+	.content_left {
+		margin: 0;
+		margin-bottom: 40px;
+	}
+	.content_text {
+		width: 80%;
+	}
+	.about h2 {
+		font-size: 36px;
+		width: 85%;
+		margin-left: auto;margin-right: auto;
+
+	}
+	.about h4 {
+		font-size: 24px;
+	}
+	.about_flex img {
+		max-width: 90%;
+		display: block;
+	}
+	#top {
+		padding-top: 10%;
+	}
+}
+@media (max-width: 560px) {
+	footer{
+		font-size: 20px;
+	}
+}
+@media (max-width: 700px) {
+	#top h1 {
+		font-size: 32px;
+		padding-top: 200px;
+
+
+	}
+	#top h3 {
+		font-size: 18px;
+
+	}
+}
+@media (max-width: 350px) {
+	.forms_title {
+		font-size: 36px;
+		margin-bottom: 20px;
+	}
+	.form .inputs {
+		width: 85%;
+	}
+	.form textarea {
+		width: 85%;
+	}
+}
